@@ -71,9 +71,7 @@ class Artists extends Component {
               <div
                 style={{ backgroundImage: `url(${data.strArtistThumb})` }}
                 className='Artists-header'
-              >
-                &nbsp;
-              </div>
+              ></div>
               <h3 className='name'>{data.strArtist}</h3>
               <div className='Artists-info'>
                 <Button
@@ -93,6 +91,7 @@ class Artists extends Component {
       );
     return renderArtists;
   }
+
   render() {
     const { query, isLoading, error } = this.state;
     if (error) {
