@@ -28,7 +28,10 @@ class Album extends Component {
           )}
         </div>
         <div className='Albums-results-info'>
-          <p className='name'>{this.props.albumName}</p>
+          <p className='name'>
+            <em>{this.props.albumName}</em>
+          </p>
+          <p>{this.props.releaseYear}</p>
         </div>
       </div>
     );

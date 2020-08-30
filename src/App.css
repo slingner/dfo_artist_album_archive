@@ -96,6 +96,10 @@ body {
   height: inherit;
 }
 
+.name {
+  padding-top: 1rem;
+}
+
 /* media query for tablet and mobile screens */
 @media only screen and (max-width: 600px) {
   .Artists {
